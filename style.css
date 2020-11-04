@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow&family=Quicksand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  max-width: 800px;
+  padding: 2%;
+}
+
+.wrapper {
+  border: 1px solid plum;
+}
+.promo {
+  padding-left: 25px;
+  padding-top: 10vh;
+  background-image: url(/images/promotionedit.jpg);
+  height: 40vh;
+}
+
+.maintitle {
+  font-family: "PT Sans Narrow", sans-serif;
+  letter-spacing: 3px;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.maintitle2 {
+  font-family: "PT Sans Narrow", sans-serif;
+  letter-spacing: 3px;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 3px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.promo h1 {
+  font-family: "Bebas Neue", cursive;
+  padding-top: 5vh;
+  color: white;
+  font-size: 42px;
+  letter-spacing: 10px;
+}
+
+.text {
+  font-family: "Quicksand", sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+button {
+  font-family: "Quicksand", sans-serif;
+  padding: 10px;
+  color: purple;
+  background-color: plum;
+  max-width: 200px;
+}
+
+button:hover {
+  background-color: purple;
+  color: white;
+}
+
+.specialtext {
+  display: inline;
+  color: red;
+}
+
+.reminder {
+  margin-top: 5vh;
+  background-color: black;
+  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.reminder h3 {
+  color: white;
+  letter-spacing: 3px;
+}
+.reminder button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+}
+
+.mens {
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mens1 {
+  padding-left: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mens1 h3 {
+  letter-spacing: 7px;
+}
+
+.mens1 button {
+  margin-top: 10px;
+  width: 100px;
+}
+
+.mensad {
+  background-color: black;
+  padding: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 100px;
+}
+
+.womens {
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+.womens1 {
+  padding-left: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.womens1 h3 {
+  letter-spacing: 7px;
+}
+
+.womens1 button {
+  margin-top: 10px;
+  width: 125px;
+}
+
+.womensad {
+  background-color: black;
+  padding: 10px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 5px;
+}
+
+.mensad {
+  width: 50%;
+}
+
+.womensad {
+  width: 50%;
+}
+
+.news {
+  height: 60vh;
+  background-image: url(/images/ad6.jpg);
+  background-size: cover;
+}
+
+.news h1 {
+  color: white;
+  text-transform: uppercase;
+  padding-top: 10vh;
+  letter-spacing: 5px;
+}
+
+.footer p {
+  padding-left: 41.5%;
+}
+
+.unsub {
+  width: 100%;
+}
+.unsub a {
+  padding-left: 45%;
+}
